@@ -1,0 +1,88 @@
+#userInfoForm {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#userInfoForm label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#userInfoForm input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+/* CSS cho nút "Bắt đầu làm bài" */
+#startQuizBtn {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#startQuizBtn:hover {
+  background-color: #45a049;
+}
+
+/* CSS cho phần câu hỏi */
+#quizForm {
+  display: none;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.question-group {
+  margin-bottom: 20px;
+}
+
+/* CSS cho nút "Nộp bài" */
+#submitQuizBtn {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#submitQuizBtn:hover {
+  background-color: #45a049;
+}
+
+/* CSS cho phần kết quả */
+#result {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: none;
+}
+
+/* CSS cho nút "Làm bài lại" */
+#restartQuizBtn {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#restartQuizBtn:hover {
+  background-color: #45a049;
+}
